@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "PassionOne";
+    src: url(../fontes/PassionOne-Bold.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    font-family: "PassionOne", sans-serif;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
