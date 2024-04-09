@@ -2,8 +2,15 @@
 
 @font-face {
     font-family: "PassionOne";
-    src: url(../fontes/PassionOne-Bold.ttf) format(truetype);
+    src: url(../fontes/PassionOne-Regular.ttf) format(truetype);
 }
+
+@font-face {
+    font-family: "Sriracha";
+    src: url(../fontes/Sriracha-Regular.ttf) format(truetype);
+}
+
+
 
 * {
     margin: 0;
@@ -15,9 +22,52 @@ header {
 
 h1 {
     font-family: "PassionOne", sans-serif;
-    font-size: 10vw;
-    font-weight: bold;
+    font-size: 192px;
+    font-weight: normal;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
+}
+
+aside {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    margin-top: 61px;
+}
+
+p {
+    font-family: "Sriracha";
+    font-size: 67px;
+    width: 50%;
+    line-height: 67px;
+    margin-left: 30px;
+    margin-bottom: 130px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
 }
