@@ -59,7 +59,44 @@ p {
     width: 50%;
     line-height: 67px;
     margin-left: 30px;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+}
+
+#imagem1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 90px 0px 90px 35px;
+}
+
+#imagem2 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 90px 0px 90px 35px;
+}
+
+.estrofe {
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    width: 42%; 
+    padding-bottom: 40px;
+    margin-top: 0px;
+}
+
+.texto {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+
+#sombra1 {
+    
+}
+
+#sombra2 {
+
 }
 
 footer {
