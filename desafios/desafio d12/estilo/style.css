@@ -66,14 +66,18 @@ p {
     background-image: url(../imagens/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 90px 0px 90px 35px;
+    
 }
 
 #imagem2 {
     background-image: url(../imagens/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     padding: 90px 0px 90px 35px;
+    
 }
 
 .estrofe {
@@ -92,11 +96,12 @@ p {
 }
 
 #sombra1 {
+    padding-bottom: 130px;
     
 }
 
 #sombra2 {
-
+    padding-bottom: 130px;
 }
 
 footer {
